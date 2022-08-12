@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f55a5a;
+  box-shadow: 1px 1px 1px 1px #f55a5a38;
+  gap: 0.4em;
+  padding: 1em;
+  margin-bottom: 3em;
+}
+
+.nav--title {
+  font-size: 16px;
+  color: white;
+}

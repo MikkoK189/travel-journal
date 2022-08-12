@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+.img--cont {
+  position: relative;
+  overflow: hidden;
+  width: 125px;
+  height: 170px;
+  border-radius: 10px;
+}
+
+.card--info--cont {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.card--img {
+  margin-left: -62px;
+  height: 170px;
+  position: absolute;
+}
+
+.card--country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.card--country > a {
+  font-size: 10px;
+  color: rgba(145, 142, 155, 1);
+}
+
+.card--country > div {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.card--duration {
+  margin-top: auto;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.card--description {
+  font-size: 12px;
+  width: 300px;
+}
